@@ -267,7 +267,7 @@ class FilterChipInput extends StatefulWidget {
 }
 
 class _FilterChipInputState extends State<FilterChipInput> {
-  List<String> _selectedOptions = [];
+  final List<String> _selectedOptions = [];
 
   @override
   Widget build(BuildContext context) {
